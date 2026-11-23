@@ -18,13 +18,16 @@
 
     var burger = document.getElementById("burger");
     if (burger) {
+      var setMenuOpen = function (isOpen) {
+        nav.classList.toggle("is-open", isOpen);
+        burger.setAttribute("aria-expanded", String(isOpen));
+      };
+
       burger.addEventListener("click", function () {
-        nav.classList.toggle("is-open");
+        setMenuOpen(!nav.classList.contains("is-open"));
       });
-      document.querySelectorAll(".nav__links a, .nav__mobileCta").forEach(function (a) {
-        a.addEventListener("click", function () {
-          nav.classList.remove("is-open");
-        });
+      nav.addEventListener("click", function (event) {
+        if (event.target.closest('a[href^="#"]')) setMenuOpen(false);
       });
     }
   }

@@ -30,21 +30,22 @@
 
 <header class="nav" id="nav">
   <div class="container nav__row">
-    <a href="/" class="brand" aria-label="Conecta VTX">
+    <a href="#top" class="brand" aria-label="Conecta VTX">
       <span class="brand__mark">
         <img src="/favicon.png" alt="Conecta VTX logo" width="30" height="22" style="background:#1f1d1d; border:1.5px solid #e5e7eb; border-radius:8px; box-shadow:0 2px 8px #0002; padding:2px;" />
       </span>
       <span class="brand__name">Conecta<span>VTX</span></span>
     </a>
-    <nav class="nav__links" aria-label="Principal">
-      <a href="/#servicos">Serviços</a>
-      <a href="/#portfolio">Portfólio</a>
-      <a href="/#produtos">Produtos</a>
-      <a href="/#diferenciais">Diferenciais</a>
-      <a href="/#processo">Processo</a>
+    <nav class="nav__links" id="nav-links" aria-label="Principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#processo">Processo</a>
+      <a href="#contato" class="nav__mobileCta">Iniciar projeto<span class="arrow"> →</span></a>
     </nav>
     <a href="#contato" class="btn btn--ghost nav__cta" data-magnetic>Iniciar projeto<span class="arrow">→</span></a>
-    <button class="nav__burger" aria-label="Abrir menu" id="burger"><span></span><span></span></button>
+    <button class="nav__burger" aria-label="Menu principal" aria-controls="nav-links" aria-expanded="false" id="burger"><span></span><span></span></button>
   </div>
 </header>
 
@@ -64,28 +65,28 @@
       </span>
 
       <h1 class="hero__title reveal" data-reveal data-delay="80">
-        Experiências digitais<br/>que <em>valorizam</em> a sua marca.
+        Sites profissionais e sistemas para <em>facilitar a rotina do seu negócio.</em>
       </h1>
 
       <p class="hero__sub reveal" data-reveal data-delay="160">
-        Sites, sistemas e interfaces sob medida — feitos para transmitir autoridade.
+        Desenvolvemos sites para apresentar seus serviços e sistemas sob medida para organizar clientes, agendamentos, pagamentos e atendimentos.
       </p>
 
       <div class="hero__cta reveal" data-reveal data-delay="240">
-        <a href="#contato" class="btn btn--primary" data-magnetic>Solicitar proposta<span class="arrow">→</span></a>
-        <a href="/#portfolio" class="btn btn--link">Ver projetos</a>
+        <a href="https://wa.me/5594991819697?text=Ol%C3%A1!%20Conheci%20a%20ConectaVTX%20pelo%20site%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." class="btn btn--primary" data-magnetic target="_blank" rel="noopener noreferrer">Conversar pelo WhatsApp<span class="arrow" aria-hidden="true">→</span></a>
+        <a href="#portfolio" class="btn btn--link">Conhecer os projetos</a>
       </div>
 
       <div class="hero__mock reveal" data-reveal data-delay="320">
         <div class="hero__mockShadow"></div>
         <img src="assets/mockup-dashboard.jpg" alt="Mockup de dashboard premium desenvolvido pela Conecta VTX" />
         <div class="float-chip float-chip--a">
-          <span class="float-chip__label">Performance</span>
-          <span class="float-chip__value">OTIMIZADA</span>
+          <span class="float-chip__label">Sites</span>
+          <span class="float-chip__value">PROFISSIONAIS</span>
         </div>
         <div class="float-chip float-chip--b">
-          <span class="float-chip__label">Conversão</span>
-          <span class="float-chip__value">ESTRATÉGICA</span>
+          <span class="float-chip__label">Sistemas</span>
+          <span class="float-chip__value">SOB MEDIDA</span>
         </div>
       </div>
     </div>
@@ -94,27 +95,27 @@
     <div class="hero__projects reveal" data-reveal data-delay="400">
       <div class="proj-marquee">
         <div class="proj-marquee__track">
-              <a class="proj-thumb" href="/#portfolio"><img src="assets/portfolio-hotel-2.jpg" alt="" loading="lazy"/><span>Hotel Boutique</span></a>
-              <a class="proj-thumb" href="/#portfolio"><img src="assets/portfolio-analytics.jpg" alt="" loading="lazy"/><span>Dashboard Fintech</span></a>
-              <a class="proj-thumb" href="/#portfolio"><img src="assets/portfolio-clinic.jpg" alt="" loading="lazy"/><span>Clínica Médica</span></a>
-              <a class="proj-thumb" href="/#portfolio"><img src="assets/portfolio-imobiliaria.jpg" alt="" loading="lazy"/><span>Imobiliária Lux</span></a>
-              <a class="proj-thumb" href="/#portfolio"><img src="assets/portfolio-app.jpg" alt="" loading="lazy"/><span>App Restaurante</span></a>
-              <a class="proj-thumb" href="/#portfolio"><img src="assets/portfolio-advocacia.jpg" alt="" loading="lazy"/><span>Escritório Advocacia</span></a>
-              <a class="proj-thumb" href="/#portfolio"><img src="assets/portfolio-crm.jpg" alt="" loading="lazy"/><span>CRM Corporativo</span></a>
-              <a class="proj-thumb" href="/#portfolio"><img src="assets/portfolio-landing.jpg" alt="" loading="lazy"/><span>Landing Premium</span></a>
-              <a class="proj-thumb" href="/#portfolio"><img src="assets/sementeazul.png" alt="" loading="lazy"/><span>Semente Azul</span></a>
-              <a class="proj-thumb" href="/#portfolio"><img src="assets/psi.png" alt="" loading="lazy"/><span>Psicólogo Luiz Otávio</span></a>
+              <a class="proj-thumb" href="#portfolio"><img src="assets/portfolio-hotel-2.jpg" alt="" loading="lazy"/><span>Hotel Boutique</span></a>
+              <a class="proj-thumb" href="#portfolio"><img src="assets/portfolio-analytics.jpg" alt="" loading="lazy"/><span>Dashboard Fintech</span></a>
+              <a class="proj-thumb" href="#portfolio"><img src="assets/portfolio-clinic.jpg" alt="" loading="lazy"/><span>Clínica Médica</span></a>
+              <a class="proj-thumb" href="#portfolio"><img src="assets/portfolio-imobiliaria.jpg" alt="" loading="lazy"/><span>Imobiliária Lux</span></a>
+              <a class="proj-thumb" href="#portfolio"><img src="assets/portfolio-app.jpg" alt="" loading="lazy"/><span>App Restaurante</span></a>
+              <a class="proj-thumb" href="#portfolio"><img src="assets/portfolio-advocacia.jpg" alt="" loading="lazy"/><span>Escritório Advocacia</span></a>
+              <a class="proj-thumb" href="#portfolio"><img src="assets/portfolio-crm.jpg" alt="" loading="lazy"/><span>CRM Corporativo</span></a>
+              <a class="proj-thumb" href="#portfolio"><img src="assets/portfolio-landing.jpg" alt="" loading="lazy"/><span>Landing Premium</span></a>
+              <a class="proj-thumb" href="#portfolio"><img src="assets/sementeazul.png" alt="" loading="lazy"/><span>Semente Azul</span></a>
+              <a class="proj-thumb" href="#portfolio"><img src="assets/psi.png" alt="" loading="lazy"/><span>Psicólogo Luiz Otávio</span></a>
               <!-- duplicate -->
-              <a class="proj-thumb" href="/#portfolio" aria-hidden="true"><img src="assets/portfolio-hotel-2.jpg" alt="" loading="lazy"/><span>Hotel Boutique</span></a>
-              <a class="proj-thumb" href="/#portfolio" aria-hidden="true"><img src="assets/portfolio-analytics.jpg" alt="" loading="lazy"/><span>Dashboard Fintech</span></a>
-              <a class="proj-thumb" href="/#portfolio" aria-hidden="true"><img src="assets/portfolio-clinic.jpg" alt="" loading="lazy"/><span>Clínica Médica</span></a>
-              <a class="proj-thumb" href="/#portfolio" aria-hidden="true"><img src="assets/portfolio-imobiliaria.jpg" alt="" loading="lazy"/><span>Imobiliária Lux</span></a>
-              <a class="proj-thumb" href="/#portfolio" aria-hidden="true"><img src="assets/portfolio-app.jpg" alt="" loading="lazy"/><span>App Restaurante</span></a>
-              <a class="proj-thumb" href="/#portfolio" aria-hidden="true"><img src="assets/portfolio-advocacia.jpg" alt="" loading="lazy"/><span>Escritório Advocacia</span></a>
-              <a class="proj-thumb" href="/#portfolio" aria-hidden="true"><img src="assets/portfolio-crm.jpg" alt="" loading="lazy"/><span>CRM Corporativo</span></a>
-              <a class="proj-thumb" href="/#portfolio" aria-hidden="true"><img src="assets/portfolio-landing.jpg" alt="" loading="lazy"/><span>Landing Premium</span></a>
-              <a class="proj-thumb" href="/#portfolio" aria-hidden="true"><img src="assets/sementeazul.png" alt="" loading="lazy"/><span>Semente Azul</span></a>
-              <a class="proj-thumb" href="/#portfolio" aria-hidden="true"><img src="assets/psi.png" alt="" loading="lazy"/><span>Psicólogo Luiz Otávio</span></a>
+              <a class="proj-thumb" href="#portfolio" aria-hidden="true" tabindex="-1"><img src="assets/portfolio-hotel-2.jpg" alt="" loading="lazy"/><span>Hotel Boutique</span></a>
+              <a class="proj-thumb" href="#portfolio" aria-hidden="true" tabindex="-1"><img src="assets/portfolio-analytics.jpg" alt="" loading="lazy"/><span>Dashboard Fintech</span></a>
+              <a class="proj-thumb" href="#portfolio" aria-hidden="true" tabindex="-1"><img src="assets/portfolio-clinic.jpg" alt="" loading="lazy"/><span>Clínica Médica</span></a>
+              <a class="proj-thumb" href="#portfolio" aria-hidden="true" tabindex="-1"><img src="assets/portfolio-imobiliaria.jpg" alt="" loading="lazy"/><span>Imobiliária Lux</span></a>
+              <a class="proj-thumb" href="#portfolio" aria-hidden="true" tabindex="-1"><img src="assets/portfolio-app.jpg" alt="" loading="lazy"/><span>App Restaurante</span></a>
+              <a class="proj-thumb" href="#portfolio" aria-hidden="true" tabindex="-1"><img src="assets/portfolio-advocacia.jpg" alt="" loading="lazy"/><span>Escritório Advocacia</span></a>
+              <a class="proj-thumb" href="#portfolio" aria-hidden="true" tabindex="-1"><img src="assets/portfolio-crm.jpg" alt="" loading="lazy"/><span>CRM Corporativo</span></a>
+              <a class="proj-thumb" href="#portfolio" aria-hidden="true" tabindex="-1"><img src="assets/portfolio-landing.jpg" alt="" loading="lazy"/><span>Landing Premium</span></a>
+              <a class="proj-thumb" href="#portfolio" aria-hidden="true" tabindex="-1"><img src="assets/sementeazul.png" alt="" loading="lazy"/><span>Semente Azul</span></a>
+              <a class="proj-thumb" href="#portfolio" aria-hidden="true" tabindex="-1"><img src="assets/psi.png" alt="" loading="lazy"/><span>Psicólogo Luiz Otávio</span></a>
             </div>
       </div>
     </div>
@@ -133,43 +134,23 @@
       <div class="services">
         <article class="service reveal" data-reveal>
           <div class="service__num">01</div>
-          <h3>SITES INSTITUCIONAIS</h3>
-          <p>Presença digital profissional, responsiva e construída para transmitir confiança.</p>
+          <h3>Sites profissionais</h3>
+          <p>Apresente sua empresa, seus serviços e suas formas de contato em um site adaptado para celulares e computadores.</p>
         </article>
         <article class="service reveal" data-reveal data-delay="60">
           <div class="service__num">02</div>
-          <h3>LANDING PAGES</h3>
-          <p>Páginas estratégicas para campanhas, lançamentos, captação e conversão.</p>
+          <h3>Páginas de campanha</h3>
+          <p>Divulgue um serviço, produto ou campanha em uma página focada em receber contatos interessados.</p>
         </article>
         <article class="service reveal" data-reveal data-delay="120">
           <div class="service__num">03</div>
-          <h3>SISTEMAS DE GESTÃO</h3>
-          <p>Ferramentas para organizar clientes, atendimentos, processos e operações.</p>
+          <h3>Sistemas de gestão</h3>
+          <p>Organize clientes, agendamentos, pagamentos e atendimentos em uma ferramenta adequada à rotina do seu negócio.</p>
         </article>
-        <article class="service reveal" data-reveal data-delay="180">
+        <article class="service service--accent reveal" data-reveal data-delay="180">
           <div class="service__num">04</div>
-          <h3>DASHBOARDS &amp; INDICADORES</h3>
-          <p>Dados organizados de forma clara para acompanhar resultados e apoiar decisões.</p>
-        </article>
-        <article class="service reveal" data-reveal data-delay="60">
-          <div class="service__num">05</div>
-          <h3>APLICAÇÕES WEB</h3>
-          <p>Soluções acessíveis pelo navegador e adaptadas à rotina de cada negócio.</p>
-        </article>
-        <article class="service reveal" data-reveal data-delay="120">
-          <div class="service__num">06</div>
-          <h3>AUTOMAÇÃO &amp; IA</h3>
-          <p>Automação de tarefas, atendimento e integrações para reduzir trabalho manual.</p>
-        </article>
-        <article class="service reveal" data-reveal data-delay="180">
-          <div class="service__num">07</div>
-          <h3>SISTEMAS SOB MEDIDA</h3>
-          <p>Plataformas desenvolvidas a partir das necessidades reais de cada operação.</p>
-        </article>
-        <article class="service service--accent reveal" data-reveal data-delay="240">
-          <div class="service__num">08</div>
-          <h3>SOLUÇÕES PARA NEGÓCIOS</h3>
-          <p>Projetos digitais personalizados para diferentes segmentos e modelos de operação.</p>
+          <h3>Automações e integrações</h3>
+          <p>Conecte ferramentas e reduza tarefas repetitivas com fluxos definidos conforme sua necessidade.</p>
         </article>
       </div>
     </div>
@@ -192,91 +173,95 @@
         </div>
       </div>
 
-      <div class="portfolio">
-        <article class="card card--lg reveal" data-reveal>
-          <div class="card__media">
-            <img src="assets/portfolio-hotel-2.jpg" alt="Hotel boutique premium" loading="lazy" />
-            <div class="card__overlay"><span>Explorar conceito</span></div>
-            <span class="card__badge badge--concept">CONCEITO</span>
-          </div>
-          <div class="card__meta"><span>Hotelaria</span><span>2025</span></div>
-          <h3 class="card__title">Aurora Boutique Hotel</h3>
-        </article>
-
-        <article class="card reveal" data-reveal data-delay="80">
-          <div class="card__media">
-            <img src="assets/portfolio-analytics.jpg" alt="Dashboard fintech" loading="lazy" />
-            <div class="card__overlay"><span>Explorar conceito</span></div>
-            <span class="card__badge badge--concept">CONCEITO</span>
-          </div>
-          <div class="card__meta"><span>SaaS</span><span>Fintech</span></div>
-          <h3 class="card__title">Plataforma analítica financeira</h3>
-        </article>
-
-        <article class="card reveal" data-reveal data-delay="160">
-          <div class="card__media">
-            <img src="assets/portfolio-clinic.jpg" alt="Clínica médica" loading="lazy" />
-            <div class="card__overlay"><span>Explorar conceito</span></div>
-            <span class="card__badge badge--concept">CONCEITO</span>
-          </div>
-          <div class="card__meta"><span>Saúde</span><span>Clínica</span></div>
-          <h3 class="card__title">Agendamento e prontuário digital</h3>
-        </article>
-
-        <article class="card card--lg reveal" data-reveal data-delay="80">
-          <div class="card__media">
-            <img src="assets/portfolio-imobiliaria.jpg" alt="Imobiliária luxo" loading="lazy" />
-            <div class="card__overlay"><span>Explorar conceito</span></div>
-            <span class="card__badge badge--concept">CONCEITO</span>
-          </div>
-          <div class="card__meta"><span>Imobiliária</span><span>Alto padrão</span></div>
-          <h3 class="card__title">Vitrine editorial de propriedades</h3>
-        </article>
-
-        <article class="card reveal" data-reveal>
-          <div class="card__media">
-            <img src="assets/portfolio-app.jpg" alt="App restaurante" loading="lazy" />
-            <div class="card__overlay"><span>Explorar conceito</span></div>
-            <span class="card__badge badge--concept">CONCEITO</span>
-          </div>
-          <div class="card__meta"><span>App Mobile</span><span>F&amp;B</span></div>
-          <h3 class="card__title">Pedidos e fidelização integrados</h3>
-        </article>
-
-        <a class="card reveal" data-reveal data-delay="80" href="https://projetosementeazul.com/" target="_blank" rel="noopener noreferrer">
-          <div class="card__media">
-            <div class="card__brand" aria-hidden="true">
-              <img src="assets/sementeazul.png" alt="Projeto Semente Azul" loading="lazy" />
+      <section class="portfolio-group" aria-labelledby="projetos-reais">
+        <h3 class="portfolio-group__title" id="projetos-reais">Projetos reais</h3>
+        <div class="portfolio">
+          <a class="card reveal" data-reveal data-delay="80" href="https://projetosementeazul.com/" target="_blank" rel="noopener noreferrer">
+            <div class="card__media">
+              <div class="card__brand" aria-hidden="true">
+                <img src="assets/sementeazul.png" alt="Projeto Semente Azul" loading="lazy" />
+              </div>
+              <div class="card__overlay"><span>Ver projeto →</span></div>
+              <span class="card__badge badge--real">PROJETO REAL</span>
             </div>
-            <div class="card__overlay"><span>Ver projeto →</span></div>
-            <span class="card__badge badge--real">PROJETO REAL</span>
-          </div>
-          <div class="card__meta"><span>Institucional</span><span>Projeto Social</span></div>
-          <h3 class="card__title">Projeto Semente Azul</h3>
-        </a>
+            <div class="card__meta"><span>Institucional</span><span>Projeto Social</span></div>
+            <h4 class="card__title">Projeto Semente Azul</h4>
+            <p class="card__description">Site institucional que apresenta o projeto social e divulga ações de conscientização sobre o autismo.</p>
+          </a>
 
-        <article class="card reveal" data-reveal data-delay="160">
-          <div class="card__media">
-            <img src="assets/portfolio-advocacia.jpg" alt="Advocacia" loading="lazy" />
-            <div class="card__overlay"><span>Explorar conceito</span></div>
-            <span class="card__badge badge--concept">CONCEITO</span>
-          </div>
-          <div class="card__meta"><span>Advocacia</span><span>Editorial</span></div>
-          <h3 class="card__title">Autoridade jurídica no digital</h3>
-        </article>
-
-        <a class="card reveal" data-reveal data-delay="80" href="https://psicologoluizotavio.com.br/" target="_blank" rel="noopener noreferrer">
-          <div class="card__media">
-            <div class="card__brand" aria-hidden="true">
-              <img src="assets/psi.png" alt="Psicólogo Luiz Otávio" loading="lazy" />
+          <a class="card reveal" data-reveal data-delay="80" href="https://psicologoluizotavio.com.br/" target="_blank" rel="noopener noreferrer">
+            <div class="card__media">
+              <div class="card__brand" aria-hidden="true">
+                <img src="assets/psi.png" alt="Psicólogo Luiz Otávio" loading="lazy" />
+              </div>
+              <div class="card__overlay"><span>Ver projeto →</span></div>
+              <span class="card__badge badge--real">PROJETO REAL</span>
             </div>
-            <div class="card__overlay"><span>Ver projeto →</span></div>
-            <span class="card__badge badge--real">PROJETO REAL</span>
-          </div>
-          <div class="card__meta"><span>Psicologia</span><span>Site Profissional</span></div>
-          <h3 class="card__title">Psicólogo Luiz Otávio</h3>
-        </a>
-      </div>
+            <div class="card__meta"><span>Psicologia</span><span>Site Profissional</span></div>
+            <h4 class="card__title">Psicólogo Luiz Otávio</h4>
+            <p class="card__description">Site profissional que apresenta o psicólogo Luiz Otávio e seu atendimento on-line.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="portfolio-group" aria-labelledby="conceitos-demonstrativos">
+        <h3 class="portfolio-group__title" id="conceitos-demonstrativos">Conceitos demonstrativos</h3>
+        <div class="portfolio">
+          <article class="card reveal" data-reveal>
+            <div class="card__media">
+              <img src="assets/portfolio-hotel-2.jpg" alt="Hotel boutique premium" loading="lazy" />
+              <span class="card__badge badge--concept">Conceito demonstrativo</span>
+            </div>
+            <div class="card__meta"><span>Hotelaria</span><span>2025</span></div>
+            <h4 class="card__title">Aurora Boutique Hotel</h4>
+          </article>
+
+          <article class="card reveal" data-reveal data-delay="80">
+            <div class="card__media">
+              <img src="assets/portfolio-analytics.jpg" alt="Dashboard fintech" loading="lazy" />
+              <span class="card__badge badge--concept">Conceito demonstrativo</span>
+            </div>
+            <div class="card__meta"><span>SaaS</span><span>Fintech</span></div>
+            <h4 class="card__title">Plataforma analítica financeira</h4>
+          </article>
+
+          <article class="card reveal" data-reveal data-delay="160">
+            <div class="card__media">
+              <img src="assets/portfolio-clinic.jpg" alt="Clínica médica" loading="lazy" />
+              <span class="card__badge badge--concept">Conceito demonstrativo</span>
+            </div>
+            <div class="card__meta"><span>Saúde</span><span>Clínica</span></div>
+            <h4 class="card__title">Agendamento e prontuário digital</h4>
+          </article>
+
+          <article class="card reveal" data-reveal data-delay="80">
+            <div class="card__media">
+              <img src="assets/portfolio-imobiliaria.jpg" alt="Imobiliária luxo" loading="lazy" />
+              <span class="card__badge badge--concept">Conceito demonstrativo</span>
+            </div>
+            <div class="card__meta"><span>Imobiliária</span><span>Alto padrão</span></div>
+            <h4 class="card__title">Vitrine editorial de propriedades</h4>
+          </article>
+
+          <article class="card reveal" data-reveal>
+            <div class="card__media">
+              <img src="assets/portfolio-app.jpg" alt="App restaurante" loading="lazy" />
+              <span class="card__badge badge--concept">Conceito demonstrativo</span>
+            </div>
+            <div class="card__meta"><span>App Mobile</span><span>F&amp;B</span></div>
+            <h4 class="card__title">Pedidos e fidelização integrados</h4>
+          </article>
+
+          <article class="card reveal" data-reveal data-delay="160">
+            <div class="card__media">
+              <img src="assets/portfolio-advocacia.jpg" alt="Advocacia" loading="lazy" />
+              <span class="card__badge badge--concept">Conceito demonstrativo</span>
+            </div>
+            <div class="card__meta"><span>Advocacia</span><span>Editorial</span></div>
+            <h4 class="card__title">Autoridade jurídica no digital</h4>
+          </article>
+        </div>
+      </section>
     </div>
   </section>
   <!-- PRODUTOS -->
@@ -396,6 +381,36 @@
     </div>
   </section>
 
+  <section class="section faq" id="duvidas" aria-labelledby="duvidas-titulo">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title" id="duvidas-titulo">Dúvidas antes da contratação</h2>
+      </div>
+      <dl class="faq__list">
+        <div>
+          <dt>O que preciso para solicitar uma proposta?</dt>
+          <dd>Conte sobre seu negócio, o que deseja melhorar e quais recursos precisa. Essas informações ajudam a definir o escopo da proposta.</dd>
+        </div>
+        <div>
+          <dt>Domínio e hospedagem estão incluídos?</dt>
+          <dd>A proposta informa se domínio e hospedagem estão incluídos, os custos envolvidos e as responsabilidades de cada parte.</dd>
+        </div>
+        <div>
+          <dt>Qual é o prazo de entrega?</dt>
+          <dd>O prazo depende do escopo, das funcionalidades e do recebimento dos materiais necessários. Ele é definido na proposta.</dd>
+        </div>
+        <div>
+          <dt>Como funcionam manutenção e suporte?</dt>
+          <dd>O acompanhamento após a entrega é combinado conforme a necessidade do projeto. A proposta especifica os serviços, limites e condições.</dd>
+        </div>
+        <div>
+          <dt>Vocês desenvolvem sistemas personalizados?</dt>
+          <dd>Sim. As funcionalidades são definidas a partir dos processos e das necessidades do negócio.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
   <!-- CTA FINAL -->
   <section class="cta" id="contato">
     <div class="cta__bg" aria-hidden="true">
@@ -412,7 +427,7 @@
       </p>
       <div class="cta__actions reveal" data-reveal data-delay="240">
         <a class="btn btn--primary btn--lg" data-magnetic href="https://wa.me/5594991819697?text=Ol%C3%A1!%20Conheci%20a%20ConectaVTX%20pelo%20site%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" rel="noopener noreferrer">
-          Falar pelo WhatsApp <span class="arrow">→</span>
+          Conversar pelo WhatsApp <span class="arrow" aria-hidden="true">→</span>
         </a>
       </div>
     </div>
@@ -422,7 +437,7 @@
 
 <footer class="footer">
   <div class="container footer__row">
-    <a href="/" class="brand brand--light">
+    <a href="#top" class="brand brand--light">
       <span class="brand__mark">
         <svg viewBox="0 0 32 32" width="20" height="20" aria-hidden="true">
           <path d="M4 22 L14 6 L20 16 L28 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -433,7 +448,7 @@
     <div class="footer__links">
       <a href="https://wa.me/5594991819697" target="_blank" rel="noopener noreferrer">WhatsApp</a>
       <a href="https://www.instagram.com/andr3saldanha" target="_blank" rel="noopener noreferrer">Instagram</a>
-      <a href="https://conectavtx.com.br">conectavtx.com.br</a>
+      <a href="#top">conectavtx.com.br</a>
     </div>
     <p class="footer__copy">© <span id="year"></span> Conecta VTX. Todos os direitos reservados.</p>
   </div>
