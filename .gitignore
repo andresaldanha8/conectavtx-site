@@ -19,6 +19,8 @@ dist-ssr
 # Wrangler / Cloudflare
 .wrangler/
 .dev.vars
+.dev.vars.*
+!.dev.vars.example
 
 # Editor directories and files
 .vscode/*
@@ -34,3 +36,22 @@ dist-ssr
 .env
 .env.*
 !.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+.htpasswd
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+
+# Temporary files and caches
+.cache/
+.tmp/
+*.tmp
+*.temp
+*.bak
+*~
+Thumbs.db

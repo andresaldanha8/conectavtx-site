@@ -79,14 +79,27 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "A ConectaVTX desenvolve sites, landing pages, sistemas, aplicações web, automações e produtos digitais sob medida para diferentes negócios.",
       },
       { name: "author", content: "ConectaVTX" },
-      { property: "og:title", content: "ConectaVTX — Sites, sistemas e experiências digitais sob medida" },
-      { property: "og:description", content: "A ConectaVTX desenvolve sites, landing pages, sistemas, aplicações web, automações e produtos digitais sob medida para diferentes negócios." },
+      {
+        property: "og:title",
+        content: "ConectaVTX — Sites, sistemas e experiências digitais sob medida",
+      },
+      {
+        property: "og:description",
+        content:
+          "A ConectaVTX desenvolve sites, landing pages, sistemas, aplicações web, automações e produtos digitais sob medida para diferentes negócios.",
+      },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://conectavtx.com.br/" },
-      // no og:image configured here — social image asset pending: /og-conectavtx.jpg
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "ConectaVTX — Sites, sistemas e experiências digitais sob medida" },
-      { name: "twitter:description", content: "A ConectaVTX desenvolve sites, landing pages, sistemas, aplicações web, automações e produtos digitais sob medida para diferentes negócios." },
+      {
+        name: "twitter:title",
+        content: "ConectaVTX — Sites, sistemas e experiências digitais sob medida",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "A ConectaVTX desenvolve sites, landing pages, sistemas, aplicações web, automações e produtos digitais sob medida para diferentes negócios.",
+      },
     ],
     links: [
       {
